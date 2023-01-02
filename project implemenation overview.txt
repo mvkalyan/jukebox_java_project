@@ -1,0 +1,140 @@
+Project overview
+
+entity classes
+1.
+podcast class
+2.audio
+3.song
+4.user
+5.playlist class
+
+operation 
+1.song operation
+2.podacst operation
+
+
+
+dao (data access object)
+songdao  
+
+songdao{
+//crud operation
+
+list<song> list
+read(){
+resultset
+
+while()
+{
+song s
+list.add(s);
+}
+
+
+}
+
+
+main()
+{
+
+
+songdao.read()// return list
+songoperation.searchbyalbum(songlist)
+songoperation.display(songlist);
+}
+
+
+
+playlist
+
+playlistdao{
+
+insert(song s,int userid)
+{
+}
+}
+
+1.
+2.
+3.creating  a playlist
+
+
+
+establish connection
+//single ton class
+
+connector
+{
+
+getconnection()
+{}
+}
+
+
+
+database:
+
+song                                     podcast
+songid songname url                   podacstid     podacstname   url
+s1         abc  ...                     p1            aa          ....
+s2        pqr    ....                   p2            bb          ....
+s3       lmn      ...                   p3             cc        ......
+
+
+
+audio table
+
+audioid     songid      podcastid    type
+   a1          s1          null       1
+a2             null         p1        2
+a3             s2           null       1
+a4              s3          null       1
+a5             null          p2        2
+a6             null          p3         2                 
+
+
+
+
+playlist
+
+playlistid    userid      audioid
+   101           1         a1    
+    102          1          a5     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
